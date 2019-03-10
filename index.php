@@ -6,11 +6,12 @@
     <title>Unity WebGL Player | JumpingDogs</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/JumpingDogsWebGL001.json", {onProgress: UnityProgress});
     </script>
+    <?php ?>
   </head>
   <body>
     <div class="webgl-content">
